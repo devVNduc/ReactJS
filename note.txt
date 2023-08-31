@@ -1,0 +1,65 @@
+Là 2 react hook được tích hợp sẵn vào trong thư viện react
+Dùng để tối ưu hiệu năng
+- useCALLBACK: Ghi nhớ 1 fuction ko thực thi nó, fuction này được truyền làm tham số cho component con
+- useMEMO: Ghi nhớ trả về kết quả của 1 fuction
+useCallback: lưu lại fnc 
+useMemo: lưu lại giá trị và ko chạy lại fnc nếu nó không thay đổi
+tạo 1 component cha:
+    h1 {menoy}
+    Com1 :
+    Com2 :
+    Com3 : button
+
+ấn vào button ở Com3 thì thay đổi money
+
+CALL API
+method:
+get (no body), post, put, delate (cả 4 cái đều có header)
+GET: Lấy thông tin, lấy dữ liệu hiển thị
+POST: Thêm mới, hoặc gửi thông tin cần bảo mật
+PUT,PATCH: sửa data
+Delete: xóa data
+
+DÙNG CODE ĐỂ CALL API: AJAX, FETCH, AXIOS DÙNG ĐỂ TẠO 1 BỨC THƯ ĐỂ GỬI ĐẾN SERVER
+POSTMAN => TẠO BỨC THƯ GỬI ĐẾN SERVER
+
+ROUTER
+//Khởi tạo router
+REDUX
+Lấy giá trị trong form 
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+DỰ ÁN TO DO LIST SIÊU CẤP
+LOADING DATA: trong lúc call api sẽ loading Skeleton
+PHÂN TRANG: Lấy mỗi trang 10 phàn tử,=> tăng trải nghiệm người dùng
+            Tách component
+            Cấu trúc thư mục theo router service
+            Thêm folder service, cấu trúc lại thư mục,set up redux
+            Set up router
+            Làm layout có Outlet
+            Đăng ký,đăng nhập và validate form
+            Thêm Task: (Có upload hình ảnh)   
+            Sửa Task
+            Xóa Task
+            Filter data theo: trạng thái, ngày, update query
+            private router: cho phép những người đăng nhập mới vào được trang
+            Search: tương tự filter
+            Gợi ý Task liên quan,đề xuất: Ttương tự filter nhưng kết hợp với localstorage
+            Chuông thông báo: Số task mới, và cận deadline
+            Task yêu thích (được lưu lại)
+            Lazyload hình ảnh (react-lazyload)
+            Lazy load file: load component nào thì file đó mới được load
+            Export,Import excel
+            Tạo chart đồ thị để thống kê
+            Đa ngôn ngữ giao diện   
+            React DnD kéo thả đỏi trạng thái
+
+
+
+
+
+

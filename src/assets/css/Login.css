@@ -1,0 +1,12 @@
+#root {
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+.login{
+    height: 100px;
+    width: 200px;
+    background-color: aquamarine;
+    font-size: 30px;
+    color: black;
+}
