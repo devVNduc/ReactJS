@@ -5,9 +5,7 @@ function useDataFetching(url) {
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-
   const isMounted = useRef(true);
-
   useEffect(() => {
     const source = axios.CancelToken.source();
 
@@ -26,6 +24,7 @@ function useDataFetching(url) {
         } else {
           if (isMounted.current) {
             setError(err);
+            
           }
         }
       } finally {

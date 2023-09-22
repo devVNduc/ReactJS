@@ -3,7 +3,7 @@
 // import App from './App.jsx'
 // // import Login from './Login.jsx'
 // // import Btvn from './btvn.jsx'
-// import './assets/css/App.css'
+import './assets/css/App.css'
 
 // ReactDOM.createRoot(document.getElementById('root')).render(
 //   <React.StrictMode>
@@ -19,9 +19,11 @@ import App from './App'
 // import Root from "./routes/root.jsx";
 // import ErrorPage from "./error-page";
 // import Contact from "./routes/contact";
-import { store } from "./redux/store";
-import { Provider } from "react-redux";
-import "./config/axios"
+// import { store } from "./redux/store";
+// import { Provider } from "react-redux";
+// import Time from "./time";
+// import "./config/axios"
+// import "./assets/css/routerTest.css"
 // const router = createBrowserRouter([
 //   {
 //     path: "/",
@@ -38,9 +40,11 @@ import "./config/axios"
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    {/* <RouterProvider/> */}
+    {/* <RouterProvider router={router}/>
     <Provider store={store}>
       <App></App>
-    </Provider>
+    </Provider> */}
+    <App></App>
+    {/* <Time/> */}
   </React.StrictMode>
 );
